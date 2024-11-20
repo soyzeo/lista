@@ -1,0 +1,178 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #004d99;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Tabla del horario */
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.horario th, .horario td {
+    border: 1px solid #cccccc;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.horario thead th {
+    background-color: #004d99;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Colores por módulo */
+.mp04 {
+    background-color: #d9eaff;
+    color: #004080;
+}
+
+.mp06 {
+    background-color: #ffe6cc;
+    color: #994d00;
+}
+
+.mp07 {
+    background-color: #ccf2d9;
+    color: #006600;
+}
+
+.mp08 {
+    background-color: #fff2cc;
+    color: #996600;
+}
+
+.mp10 {
+    background-color: #e6ccff;
+    color: #4d0099;
+}
+
+.mp12 {
+    background-color: #ffd9e6;
+    color: #99004d;
+}
+
+.pati {
+    text-align: center;
+    font-style: italic;
+    background-color: #ffedcc;
+    color: #cc6600;
+    font-weight: bold;
+}
+
+/* Tabla de módulos */
+.modulos {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.modulos th, .modulos td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.modulos thead th {
+    background-color: #004d99;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hover para filas */
+.horario tbody tr:hover, 
+.modulos tbody tr:hover {
+    background-color: #d6eaff;
+    cursor: pointer;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-table {
+    width: 90%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.student-table th, .student-table td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.student-table th {
+    background-color: #0078d7;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.student-table td {
+    font-size: 14px;
+    color: #333;
+}
+
+.student-table img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.student-table tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.student-table a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.student-table a:hover {
+    text-decoration: underline;
+}
